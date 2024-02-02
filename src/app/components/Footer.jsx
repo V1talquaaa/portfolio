@@ -4,7 +4,7 @@ import Image from "next/image";
 function Footer() {
   return (
     <footer id="footer" className="bg-footerBg bg-cover py-[120px]"> 
-      <div className="container text-white flex justify-between items-center" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
+      <div className="container text-white flex justify-between items-center">
         <div>
           <h2 className="mb-5 text-6xl">Follow me</h2>
           <Image src="/footerRounds.svg" width={150} height={10} alt="" />
