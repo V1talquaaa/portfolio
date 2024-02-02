@@ -17,6 +17,8 @@ const brunoAce = Bruno_Ace({
   subsets: ['latin'],
   weight: '400',
   variable: '--font-brunoAce',
+  display: 'swap',
+  adjustFontFallback: false,
 })
 
 
