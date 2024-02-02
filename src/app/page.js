@@ -16,7 +16,6 @@ import { useEffect } from 'react'
 const brunoAce = Bruno_Ace({
   subsets: ['latin'],
   weight: '400',
-  variable: '--font-brunoAce',
   display: 'swap',
   adjustFontFallback: false,
 })
@@ -31,7 +30,7 @@ export default function Home() {
   }, []);
 
   return (
-    <main className={`${brunoAce.variable} font-sans`}>
+    <main className={brunoAce.className}>
       <Header />
       <Hero />
       <About />
