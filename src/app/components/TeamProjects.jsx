@@ -4,7 +4,7 @@ import React from "react";
 function TeamProjects() {
   return (
     <section id="projects" className="bg-projectBg bg-cover py-[120px]">
-      <div className="container" data-aos="fade-left" data-aos-duration="1000" data-aos-once="true">
+      <div className="container">
         <h2 className="mb-[80px] text-6xl text-white text-right">Team Projects</h2>
         
         <div className="flex items-center mb-10">
