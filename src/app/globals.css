@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+.customShadow {
+-webkit-box-shadow: 0px 0px 50px -11px rgba(179, 53, 164, 1);
+-moz-box-shadow: 0px 0px 50px -11px rgba(179, 53, 164, 1);
+box-shadow: 0px 0px 50px -11px rgba(179, 53, 164, 1);
+
+}
+.customShadow:hover {
+  -webkit-box-shadow: 0px 0px 50px -11px rgba(239, 200, 234, 1);
+  -moz-box-shadow: 0px 0px 50px -11px rgba(239, 200, 234, 1);
+  box-shadow: 0px 0px 50px -11px rgba(239, 200, 234, 1);
+}
