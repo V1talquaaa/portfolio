@@ -10,7 +10,6 @@ function Footer() {
           <Image src="/footerRounds.svg" width={150} height={10} alt="" />
         </div>
         <ul className="flex gap-10">
-            <li><a href="#hero" className="hover:text-fuchsia-400 transition">Home</a></li>
             <li><a href="#about" className="hover:text-fuchsia-400 transition">About Me</a></li>
             <li><a href="#skills" className="hover:text-fuchsia-400 transition">My Stack</a></li>
             <li><a href="#projects" className="hover:text-fuchsia-400 transition">Projects</a></li>
