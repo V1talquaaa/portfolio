@@ -22,7 +22,7 @@ function Hero() {
             Based in Cracow, Poland.
           </p>
         </div>
-        <div className="hidden lg:block border rounded-[50%] w-[765px] border-violet-900 h-[765px] flex items-center justify-center">
+        <div className="hidden lg:flex border rounded-[50%] w-[765px] border-violet-900 h-[765px] flex items-center justify-center">
           <div className="border rounded-[50%] w-[725px] h-[725px] bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 relative">
             <Image
               src="/avatarPhoto.png"
