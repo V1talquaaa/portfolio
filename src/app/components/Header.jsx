@@ -2,7 +2,7 @@ import React from "react";
 
 function Header() {
   return (
-    <nav className="absolute w-full z-10">
+    <nav className="hidden lg:absolute w-full z-10">
       <div className="container" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
         <div className=" mt-[12px] px-[24px] py-[21px] flex justify-between items-center border rounded-[48px] text-[#EDF1FA] bg-gradient-to-r from-black-950 via-indigo-800 to-blue-950">
           <a href="/">Vitaly.S</a>
