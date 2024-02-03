@@ -33,9 +33,9 @@ function Hero() {
             />
           </div>
         </div>
-        {/* <div className="absolute top-[60%] left-[50%]">
+        <div className="mt-5 flex justify-center lg:mt-0 lg:absolute top-[60%] left-[50%]">
         <DownloadBtn />
-        </div> */}
+        </div>
       </div>
     </section>
   );
