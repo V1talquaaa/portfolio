@@ -3,9 +3,9 @@ import React from "react";
 
 function Projects() {
   return (
-    <section id="projects" className="bg-projectBg bg-cover py-[120px]">
+    <section id="projects" className="bg-projectBg bg-cover py-[60px] lg:py-[120px]">
       <div className="container"  data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
-        <h2 className="mb-[80px] text-6xl text-white text-right">Individual Projects</h2>
+        <h2 className="mb-5 lg:mb-[80px] text-2xl lg:text-6xl text-white text-center lg:text-right">Individual Projects</h2>
         
         <div className="flex items-center mb-10">
         <a href="https://the-royal-curry.vercel.app/" target="_blank" rel="noopener noreferrer nofollow">
@@ -22,7 +22,7 @@ function Projects() {
           </div>
           </a>
           <div>
-            <h3 className="text-white text-xl">Royal Curry</h3>
+            <h3 className="text-white lg:text-xl">Royal Curry</h3>
             <span className="text-gray-600">In progres...</span>
           </div>
           <div className="ml-auto">

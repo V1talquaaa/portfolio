@@ -16,6 +16,7 @@ module.exports = {
         'skillsBg': "url('/backgroundStack.png')",
         'projectBg': "url('/backgroundProject.png')",
         'footerBg': "url('/backgroundFooter.png')",
+        'aboutMobile': "url('/aboutImage.png')",
       },
       container: {
         center: true,

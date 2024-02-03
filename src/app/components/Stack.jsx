@@ -3,11 +3,11 @@ import React from 'react'
 
 function Stack() {
   return (
-    <section id="skills" className="bg-aboutBg bg-cover py-[120px]">
+    <section id="skills" className="bg-aboutBg bg-cover py-[60px] lg:py-[120px]">
       <div className="container text-white" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
 <div className='mb-10 flex items-center gap-10'>
-<h2 className="text-6xl">My Stack</h2>
-      <Image src="/skillArrowIcon.svg" width={600} height={10} alt='arrow'/>
+<h2 className="mx-auto lg:ml-0 lg:text-left text-2xl lg:text-6xl">My Stack</h2>
+      <Image src="/skillArrowIcon.svg" width={600} height={10} alt='arrow' className='hidden lg:block'/>
 </div>
       <ul className='grid grid-cols-2 gap-5 justify-center'>
         <li className='flex items-center gap-5'><Image src="/htmlIcon.svg" width={48} height={48} alt="html" />HTML</li>

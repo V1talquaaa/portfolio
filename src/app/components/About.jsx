@@ -3,20 +3,30 @@ import React from "react";
 
 function About() {
   return (
-    <section id="about" className="bg-aboutBg bg-cover py-[120px]">
+    <section id="about" className="bg-aboutBg bg-cover py-[60px] lg:py-[120px]">
       <div className="container" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
-        <div className="grid grid-cols-2 text-white items-center">
-          <div className="w-[540px] h-[540px] rounded-[50%] border bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500">
+        <div className="lg:grid lg:grid-cols-2 text-white items-center">
+          <div className="hidden lg:block w-[540px] h-[540px] rounded-[50%] border bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500">
             <Image
               src="/aboutImage.png"
               width={480}
               height={480}
               alt="developer"
+              className=""
             />
           </div>
-          <div>
-            <h2 className="mb-10 text-6xl">About Me</h2>
-            <p className="text-xl mb-10">
+          <div className="text-center lg:text-left">
+            <h2 className="mb-2 lg:mb-10 text-2xl lg:text-6xl">About Me</h2>
+            <div className="mb-2 lg:hidden flex justify-center">
+            <Image
+              src="/aboutImage.png"
+              width={150}
+              height={150}
+              alt="developer"
+              className=""
+            />
+            </div>
+            <p className="text-md lg:text-xl mb-10">
               As a recently trained junior front-end developer, I have completed
               comprehensive IT courses at GoIT school covering HTML, CSS, JavaScript,
               React, and Node. While I lack professional experience in the

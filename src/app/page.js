@@ -10,6 +10,7 @@ import TeamProjects from './components/TeamProjects'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react'
+import { HeaderMobile } from './components/MobileHeader';
 
 
 
@@ -31,7 +32,8 @@ export default function Home() {
 
   return (
     <main className={brunoAce.className}>
-      <Header />
+      {/* <Header /> */}
+      <HeaderMobile />
       <Hero />
       <About />
       <Stack />
