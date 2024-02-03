@@ -32,7 +32,7 @@ export default function Home() {
 
   return (
     <main className={brunoAce.className}>
-      {/* <Header /> */}
+      <Header />
       <HeaderMobile />
       <Hero />
       <About />
