@@ -4,7 +4,7 @@ import DownloadBtn from "./DownloadBtn/DownloadBtn";
 
 function Hero() {
   return (
-    <section id="hero" className="bg-heroBg bg-cover py-[120px] lg:pt-[335px]">
+    <section id="hero" className="bg-heroBg bg-cover py-[120px] lg:pt-[335px] lg:pb-0">
       <div className="container lg:grid lg:grid-cols-2" data-aos="fade-down" data-aos-duration="1000" data-aos-once="true">
       <div className="mx-auto mb-5 lg:hidden rounded-[50%] w-[220px] h-[220px] bg-gradient-to-r from-blue-500 via-purple-9 to-pink-500">
             <Image
