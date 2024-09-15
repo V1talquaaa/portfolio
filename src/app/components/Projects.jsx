@@ -82,7 +82,7 @@ function Projects() {
             <p className="mt-2 text-gray-400 text-sm max-w-[400px]">
             Pet project for indian restaurant with possibility to order food online.
             </p>
-            <p className="mt-2 text-fuchsia-400 text-md ">&#91; React, JavaScript &#93;</p>
+            <p className="mt-2 text-fuchsia-400 text-md ">&#91; React, JavaScript, Tailwind &#93;</p>
           </div>
           <div className="ml-auto">
           <Image src="/verticalDodes.svg" width={68} height={266} alt="svg" className=""/>
