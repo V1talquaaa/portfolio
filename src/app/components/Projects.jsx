@@ -6,6 +6,61 @@ function Projects() {
     <section id="projects" className="bg-projectBg bg-cover py-[60px] lg:py-[120px]">
       <div className="container"  data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
         <h2 className="mb-5 lg:mb-[80px] text-2xl lg:text-6xl text-white text-center lg:text-right">Individual Projects</h2>
+
+        <div className="flex items-center mb-10 lg:mb-[150px]">
+        <a href="https://brother-in-blue.vercel.app/" target="_blank" rel="noopener noreferrer nofollow">
+          <div className="mr-10 p-2 rounded-xl customShadow">
+            <div className="mr-10 p-2 rounded-xl customShadow">
+                <Image
+                  src="/brotherinblue.png"
+                  width={400}
+                  height={300}
+                  alt="film"
+                  className="customShadow"
+                />
+            </div>
+          </div>
+          </a>
+          <div>
+            <h3 className="text-white lg:text-xl">Brother in Blue</h3>
+            <span className="text-gray-600">September 2024</span>
+            <p className="mt-2 text-gray-400 text-sm max-w-[400px]">
+            Project was developed for religious community Brother in Blue based in US.
+            </p>
+            <p className="mt-2 text-fuchsia-400 text-md ">&#91; React, JavaScript, Next.js, Tailwind, Swiper &#93;</p>
+          </div>
+          <div className="ml-auto">
+          <Image src="/verticalDodes.svg" width={68} height={266} alt="svg" className=""/>
+          </div>
+        </div>
+
+        <div className="flex items-center justify-end mb-10 lg:mb-[150px]">
+        <div className="mr-auto">
+          <Image src="/horizontalDodes.svg" width={266} height={723} alt="svg" className=""/>
+          </div>
+          <div className="">
+            <h3 className="text-white text-xl">Neil Mayrick</h3>
+            <span className="text-gray-600">August 2024</span>
+            <p className="mt-2 text-gray-400 text-sm max-w-[400px]">
+            Project was developed for Global Executive Coach, Team Catalyst
+            & Leadership Development Facilitator.
+            </p>
+            <p className="mt-2 text-fuchsia-400 text-md ">&#91; React, JavaScript, Next.js, Tailwind &#93;</p>
+          </div>
+          <a href="https://neil-chi.vercel.app/" target="_blank">
+          <div className="ml-10 p-2 rounded-xl customShadow">
+            <div className="ml-10 p-2 rounded-xl customShadow">
+
+                <Image
+                  src="/neilproject.png"
+                  width={400}
+                  height={300}
+                  alt="film"
+                />
+            </div>
+          </div>
+          </a>
+        </div>
         
         <div className="flex items-center mb-10 lg:mb-[150px]">
         <a href="https://the-royal-curry.vercel.app/" target="_blank" rel="noopener noreferrer nofollow">
